@@ -1,5 +1,5 @@
 const countSequence = (sequence, input) => {
-  // Your future job begins here ...
+  return sequence.length === 0? 0 : input.split(sequence).length-1;
 };
 
 module.exports = {
